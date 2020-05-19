@@ -53,6 +53,10 @@ while True:
     ev = pygame.event.get()
 
     for event in ev:
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+
         if event.type == pygame.KEYDOWN:
             pause = not pause
         
