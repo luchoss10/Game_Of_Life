@@ -1,30 +1,11 @@
 import pygame
 import time
 import numpy as np
-
-<<<<<<< HEAD
-def Make_World(i,j):
-    world = np.zeros(shape=(i,j),dtype=int)
-    return world
-
-
-
-
-
-world = Make_World(10,10)
-
-print(world.dtype)
-print(world)
-
-
-
-=======
 #Start the module pygame
 pygame.init()
 
 #Establishing the width and height of the window
 width, height = 1000, 1000
->>>>>>> 3f9d49494e0c3cf99ebc9155e3efe164cf1fcff6
 
 #Create the window with the size selected
 screen = pygame.display.set_mode((height, width))
